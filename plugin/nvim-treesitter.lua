@@ -1,5 +1,7 @@
 -- Last Change: 2022 Apr 16
 
+print "loading treesitter..."
+
 if vim.g.loaded_nvim_treesitter then
   return
 end
