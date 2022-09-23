@@ -10,6 +10,7 @@ require "nvim-treesitter.query_predicates"
 local M = {}
 
 function M.setup()
+  print "treesitter setup"
   utils.setup_commands("install", install.commands)
   utils.setup_commands("info", info.commands)
   utils.setup_commands("configs", configs.commands)
